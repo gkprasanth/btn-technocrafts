@@ -4,7 +4,7 @@ import Home from '../assets/home.png'
 import { Link, animateScroll as scroll } from "react-scroll";
 const Navbar = () => {
     return (
-        <Box w={'100vw'} pos={'fixed'} bg={'#fff'}  >
+        <Box w={'100vw'} pos={'fixed'} bg={'#eff7fe'}  >
             <Stack direction={'row'} w={'100%'} maxW={'80vw'} flex={'true'} m={'auto'} justifyContent={'space-between'} alignItems={'center'} px={5} >
                 <Box >
                     <Image boxSize='80px' src={Home} alt='Dan Abramov' />
