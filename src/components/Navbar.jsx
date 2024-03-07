@@ -37,9 +37,20 @@ const Navbar = () => {
                             About
                         </Button>
                     </Link>
+
+                    <Link
+                        to={"services"}
+                        style={{ textDecoration: "none" }}
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+
+                    >
                     <Button color={'#012970'} variant={'ghost'} size='md'>
                         Services
                     </Button>
+                    </Link>
                     <Button color={'#012970'} variant={'solid'} size='md'>
                         Contact
                     </Button>

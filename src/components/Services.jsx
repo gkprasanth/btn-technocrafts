@@ -6,7 +6,7 @@ const Services = ({ cardImage, cardHeading, cardDesc }) => {
 
         <>
             
-            <Container>
+            <Container  id='services' >
                 <Box borderRadius={'sm'} bgColor={'#eff7fe'} p={5} height="100%">
                     <Stack gap={7}>
                         <Image
