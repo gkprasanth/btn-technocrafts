@@ -3,7 +3,9 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <Box bg="gray.800" color="white">
+        <Box ml={'75px'} bg="gray.800" color="white" bottom={0} justifyContent={'center'}  w={'90vw'} overflow={'none'} >
+            
+            
             <Container maxW="container.xl" py={8}>
                 <Stack direction={['column', 'row']} spacing={4} justifyContent="center" alignItems="center">
                     <Text>&copy; BTN TECHNOCRAFTS</Text>

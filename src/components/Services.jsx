@@ -5,7 +5,6 @@ const Services = ({ cardImage, cardHeading, cardDesc }) => {
     return (
 
         <>
-            
             <Container  id='services' >
                 <Box borderRadius={'sm'} bgColor={'#eff7fe'} p={5} height="100%">
                     <Stack gap={7}>
@@ -26,7 +25,6 @@ const Services = ({ cardImage, cardHeading, cardDesc }) => {
                 </Box>
             </Container>
         </>
-
     );
 };
 

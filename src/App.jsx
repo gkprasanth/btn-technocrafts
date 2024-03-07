@@ -8,6 +8,7 @@ import Home from './components/Home'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import About from './components/About'
 import Footer from './components/Footer'
+import ContactForm from './components/ContactForm'
 
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        {/* <Route path='/about' element={<About />} /> */}
+        <Route path='/contact' element={<ContactForm />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

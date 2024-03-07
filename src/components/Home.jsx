@@ -37,7 +37,7 @@ const Home = () => {
     ]
 
     return (
-        <Container id='home' maxW={'100vw'} pt={'100px'} px={4}>
+        <Container id='home' maxW={'100vw'} pt={'100px'} px={4} overflow={'none'} >
             <Stack direction={isMobile ? 'column' : 'row'} justifyContent={'center'} spacing={8} align={isMobile ? 'center' : 'center'}>
                 <VStack align={isMobile ? 'center' : 'flex-start'} spacing={4} maxW={isMobile ? '100%' : '50%'}>
                     <Text fontSize={{ base: '3xl', md: '4xl' }} fontWeight="bold" color="blue.500" textAlign={isMobile ? 'center' : 'start'}>BN Technocrats Pvt Ltd</Text>
